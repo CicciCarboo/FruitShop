@@ -1,3 +1,11 @@
+Welcome to my first solo single page application, a work in progress. 
+
+I have created this application to practise what I learn during my classes in HTML & CSS, 
+JavaScript and React this spring 2021.
+
+Enjoy!
+
+Reacts info:
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
