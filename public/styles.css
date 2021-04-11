@@ -9,6 +9,18 @@ body {
     background-color: darkgreen;
 }
 
+.menu-button{
+    border: 0;
+    padding: 25px;
+    border-radius: 5px;
+    background-color: bisque;
+}
+
+.menu-button:hover{
+    background-color:rgb(69, 99, 69);
+    color:rgb(184, 235, 184);
+}
+
 .menu-link{
     color:rgb(184, 235, 184);
     text-decoration: none;
@@ -25,10 +37,20 @@ title{
     background-color: rgb(80, 112, 80);
 }
 
+.fruit-category{
+    background-color: bisque;
+    text-align: center;
+    padding: 25px;
+    border-radius: 10px;
+    border: 5px solid darkgreen;
+}
+
 .fruits{
     background-color: bisque;
     list-style: none;
     padding: 0;
+    border-radius: 10px;
+    border:5px dotted rgb(69, 99, 69)
 }
 
 .fruits_item{    
@@ -36,9 +58,6 @@ title{
     padding: 50px;
 }
 
-.fruit-category{
-    background-color: bisque;
-    text-align: center;
-    padding: 25px;
-    border: 5px dotted darkgreen;
+#fruits_item_top{
+    border-top: none;
 }
