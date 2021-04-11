@@ -3,23 +3,32 @@ body {
 }
 
 .menu{
-    position: absolute;
-    width: 300px;
+    position: fixed;
+    width: 0px;
     height: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    padding-top: 80px;
     background-color: darkgreen;
+    transition: 1.5s;
+    overflow-x:hidden;
 }
 
 .menu-button{
     border: 0;
-    padding: 25px;
+    padding: 25px 40px;
     border-radius: 5px;
     background-color: bisque;
+    font-size: 30px;
 }
 
 .menu-button:hover{
     background-color:rgb(69, 99, 69);
     color:rgb(184, 235, 184);
 }
+
+
 
 .menu-link{
     color:rgb(184, 235, 184);
@@ -28,10 +37,33 @@ body {
     padding: 50px;
 }
 
+.menu-link.close-button{
+    position: absolute;
+    top: 0;
+    padding: 15px;
+    right: 25px;
+    margin-left: 200px;
+}
+
 .menu-link:hover{
     background-color: rgb(69, 99, 69);
     color: rgb(184, 235, 184);
 }
+
+#main{
+    transition: margin-left 1.5s;
+    padding: 16px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  }
+
+  .greeting{
+      text-align: center;
+  }
 
 title{
     background-color: rgb(80, 112, 80);
