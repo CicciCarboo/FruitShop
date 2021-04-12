@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(184, 235, 184);
+    background-color: rgb(212, 233, 212);
 }
 
 .menu{
@@ -12,7 +12,8 @@ body {
     padding-top: 80px;
     background-color: darkgreen;
     transition: 1.5s;
-    overflow-x:hidden;
+    overflow: hidden;
+    
 }
 
 .menu-button{
@@ -27,8 +28,6 @@ body {
     background-color:rgb(69, 99, 69);
     color:rgb(184, 235, 184);
 }
-
-
 
 .menu-link{
     color:rgb(184, 235, 184);
@@ -86,7 +85,7 @@ title{
 }
 
 .fruits_item{    
-    border-top: 5px solid rgb(184, 235, 184);
+    border-top: 5px solid rgb(212, 233, 212);
     padding: 50px;
 }
 
