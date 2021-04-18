@@ -1,0 +1,17 @@
+[
+    {
+        "id": 0,
+        "title": " red apples",
+        "price": "25 SEK/kg"
+    },
+    {
+        "id": 3,
+        "title": "bananas",
+        "price": "50 SEK/kg"
+    },
+    {
+        "id": 4,
+        "title": "Cashew nuts",
+        "price": "145 SEK/kg"
+    }
+]
