@@ -1,0 +1,18 @@
+[
+    {
+      "id": 4,
+      "title": "Cashew nuts",
+      "price": "145 SEK/kg" 
+    },
+    {
+      "id": 5,
+      "title": "Almonds",
+      "price": "135 SEK/kg"
+    },
+    {
+      "id": 6,
+      "title": "Peanuts",
+      "price": "125 SEK/kg"
+    }
+  ]
+  

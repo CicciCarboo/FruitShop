@@ -1,0 +1,18 @@
+[
+    {
+      "id": 10,
+      "title": "Potatoes",
+      "price": "25 SEK/kg"
+    },
+    {
+      "id": 11,
+      "title": "Tomatoes",
+      "price": "30 SEK/kg"
+    },
+    {
+      "id": 12,
+      "title": "Carrots",
+      "price": "30 SEK/kg"
+    }
+  ]
+  
