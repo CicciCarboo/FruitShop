@@ -5,15 +5,7 @@ import styles from "../StyleModules/Sidebar.module.css";
 /*drawer menu */
 
 const Sidebar = (props, { updateFruitCategory }) => {
-  // fresh start of Sidebar styling 20210611 with useSTate and style modules
-  //const [isSidebarVisible, setIsSidebarVisible] = useState(false);
-
-  /*210622 Trying with short-circuit operator.
-  Result: does the job, but the animation is lost.
   
-  New try, combining short circuit operator and conditional classNames
-  Result: works like a charm :-D!*/
-
   const isVisible = props.isVisible;
 
   return (

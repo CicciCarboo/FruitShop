@@ -3,17 +3,15 @@ import React, { useEffect, useState } from "react";
 const Vegetables = () => {
   const url = "/vegetables.json";
 
-  const [fruits, setFruits] = useState([]); // useState = a kind of local memory.
+  const [fruits, setFruits] = useState([]);
 
   useEffect(async () => {
-    //useEffect uses the information in the .json-file to populate the useState-array of fruits.
     if (fruits.length === 0) {
       const response = await fetch(url);
       const fruitData = await response.json();
       setFruits(fruitData);
     }
   }, [url]);
-  // console.log(fruits);
 
   return (
     <div>

@@ -1,10 +1,7 @@
-//import logo from './logo.svg';
 import { useState } from "react";
-//import "./App.css";
 import styles from "./StyleModules/Sidebar.module.css";
 import Greeting from "./components/Greeting";
 import Sidebar from "./components/Sidebar";
-import MostPopular from "./components/MostPopular";
 import PomeFruit from "./components/PomeFruit";
 import FruitShop from "./components/FruitShop";
 import StoneFruits from "./components/StoneFruits";

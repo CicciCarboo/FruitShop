@@ -11,13 +11,17 @@ Save the data in a useState-variable. DONE
 Use map in the FruitShop component to list the content. DONE
 Todo: a switch to change fruit category name with capital letter in the li's h3. DONE!!!!
 Todo: Put a link from landing page to the first Fruit shop page, to demonstrate the toggle sidebar. DONE
-Todo: Make the sidebar toggle on the landing page. DONE
+Todo: Make the sidebar toggle on the landing page with React, not vanilla JS. DONE
+Todo: connect the sidebars links to the json-files through routing. DONE
 
+TODO: Clean up CSS from duplicates.
 TODO: #fruits_item_top: top item, 
 preferably without border-top. Find a workaround, due to mapping in FruitShop.js:
-maybe selecting the top-item trough some kind of indexing of the array???
-Todo: connect the sidebars links to the json-files through routing. OR global states through Redux
-Maybe: For all menu-links do something like this: onClick => setVisible(false) eg. close sidebar
+maybe selecting the top-item through some kind of indexing of the array???
+Maybe: Try to substitute the Router with global states through Redux, changing only the state of the FruitShop component.
+Since the state is changed via the Sidebar component Redux might help passing the information between the components.
+Maybe: Place Sidebar close button on the sidebar. Might work with Redux.
+Maybe: Make the application responsive.
 
 */
 
