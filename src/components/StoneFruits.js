@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 
-const PomeFruit = () => {
-  const url = "/pomefruit.json";
+const StoneFruits = () => {
+  const url = "/stonefruits.json";
 
   const [fruits, setFruits] = useState([]); // useState = a kind of local memory.
 
@@ -17,7 +17,7 @@ const PomeFruit = () => {
 
   return (
     <div>
-      <h3 className="fruit-category">Pome fruit</h3>
+      <h3 className="fruit-category">Stone fruits</h3>
       <ul className="fruits">
         {fruits.map((fruit) => (
           <li className="fruits_item">
@@ -30,4 +30,4 @@ const PomeFruit = () => {
   );
 };
 
-export default PomeFruit;
+export default StoneFruits;

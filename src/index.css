@@ -1,11 +1,15 @@
-body{
-background-color: rgb(212, 233, 212);
-/* color: darkgreen; */
-text-align: center;
-font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+body {
+  background-color: rgb(212, 233, 212);
+  /* color: darkgreen; */
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-.menu{
+/* 2021-06-23 This style sheet (index.css) controls some of the styling in the main application via App.js and other components.
+The rest of the styling is controlled by StyleModules/Sidebar.module.css.  */
+
+/* .menu{
   position: fixed;
   width: 350px;
   height: 100%;
@@ -60,53 +64,67 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
-  .sidebar {padding-top: 15px;}
-  .sidebar a {font-size: 18px;}
+  .sidebar {
+    padding-top: 15px;
+  }
+  .sidebar a {
+    font-size: 18px;
+  }
+}
+*/ .greeting {
+  text-align: center;
 }
 
-.greeting{
-    text-align: center;
-}
-
-.drawer-page-link{
+.drawer-page-link {
   font-weight: 600;
   color: darkgreen;
 }
 
-.greeting-paragraf{
-  margin-bottom: 0rem;
+.start-page-link {
+  font-weight: 600;
+  color: darkgreen;
+  text-align: center;
 }
 
-title{
+.greeting-paragraf {
+  margin-bottom: 0rem;
+  font-weight: bold;
+}
+
+.greeting-paragraf.start-instructions {
+  color: darkgreen;
+}
+
+title {
   background-color: rgb(80, 112, 80);
 }
 
-.fruit-category{
+.fruit-category {
   background-color: bisque;
   text-align: center;
   padding: 25px;
   border-radius: 10px;
   border: 5px solid darkgreen;
+  margin-top: 16px;
 }
 
-.fruits{
+.fruits {
   background-color: bisque;
   list-style: none;
   padding: 0;
   border-radius: 10px;
-  border:5px dotted rgb(69, 99, 69)
+  border: 5px dotted rgb(69, 99, 69);
 }
 
-.fruits_item{    
+.fruits_item {
   border-top: 5px solid rgb(212, 233, 212);
   padding: 50px;
 }
 
-#fruits_item_top{  /* top item, preferably without border-top. Find a workaround, due to mapping in FruitShop.js*/
+#fruits_item_top {
+  /* top item, preferably without border-top. Find a workaround, due to mapping in FruitShop.js*/
   border-top: none;
 }
-
-
 
 /* Original index.css content:
 
