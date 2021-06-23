@@ -1,0 +1,18 @@
+[
+    {
+      "id": 7,
+      "title": "Peaches",
+      "price": "50 SEK/kg" 
+    },
+    {
+      "id": 8,
+      "title": "Plums",
+      "price": "35 SEK/kg"
+    },
+    {
+      "id": 9,
+      "title": "Cherries",
+      "price": "35 SEK/kg"
+    }
+  ]
+  

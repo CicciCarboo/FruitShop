@@ -1,0 +1,80 @@
+.buttonsContainer {
+  display: flex;
+}
+
+.openSidebarButton {
+  border: 0;
+  padding: 25px 40px;
+  border-radius: 5px;
+  background-color: bisque;
+  font-size: 30px;
+  flex: inline;
+  margin-left: 60px;
+}
+
+.closeSidebarButton {
+  top: 10px;
+  border: 0;
+  padding: 15px 45px;
+  right: 25px;
+  margin-left: 10px;
+  background-color: bisque;
+  font-weight: bolder;
+  color: darkgreen;
+  border-radius: 5%;
+  flex: inline;
+}
+
+.openSidebarButton:hover,
+.closeSidebarButton:hover {
+  background-color: rgb(69, 99, 69);
+  color: rgb(184, 235, 184);
+}
+
+.sidebar {
+  position: absolute;
+  width: 0;
+  /* height: 100%; */
+  z-index: 1;
+  top: 0;
+  left: 0;
+  /* padding-top: 80px; */
+  background-color: darkgreen;
+  transition: 1.5s;
+  overflow: hidden;
+}
+
+.sidebarVisible {
+  width: 250px;
+}
+
+.menuList {
+  padding: 0 0 300px 0;
+}
+
+.menuLink {
+  color: rgb(184, 235, 184);
+  text-decoration: none;
+  display: block;
+  padding: 35px;
+}
+
+.menuLink:hover {
+  background-color: rgb(69, 99, 69);
+  color: rgb(184, 235, 184);
+}
+
+#main {
+  transition: margin-left 1.5s;
+  padding: 16px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {
+    padding-top: 15px;
+  }
+  .sidebar a {
+    font-size: 18px;
+  }
+}

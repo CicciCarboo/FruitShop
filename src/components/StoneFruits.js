@@ -1,23 +1,21 @@
 import React, { useEffect, useState } from "react";
 
-const PomeFruit = () => {
-  const url = "/pomefruit.json";
+const StoneFruits = () => {
+  const url = "/stonefruits.json";
 
-  const [fruits, setFruits] = useState([]); // useState = a kind of local memory.
+  const [fruits, setFruits] = useState([]);
 
   useEffect(async () => {
-    //useEffect uses the information in the .json-file to populate the useState-array of fruits.
     if (fruits.length === 0) {
       const response = await fetch(url);
       const fruitData = await response.json();
       setFruits(fruitData);
     }
   }, [url]);
-  // console.log(fruits);
 
   return (
     <div>
-      <h3 className="fruit-category">Pome fruit</h3>
+      <h3 className="fruit-category">Stone fruits</h3>
       <ul className="fruits">
         {fruits.map((fruit) => (
           <li className="fruits_item">
@@ -30,4 +28,4 @@ const PomeFruit = () => {
   );
 };
 
-export default PomeFruit;
+export default StoneFruits;
